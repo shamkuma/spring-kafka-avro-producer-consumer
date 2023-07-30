@@ -1,0 +1,32 @@
+{
+  "type": "record",
+  "namespace": "com.example.spring.kafka.avro.schema",
+  "name": "User",
+  "fields": [
+    {
+      "name": "userId",
+      "type": "int",
+      "default": -1
+    },
+    {
+      "name": "userName",
+      "type": [ "null", "string" ],
+      "default": null
+    },
+    {
+      "name": "userAddress",
+      "type": [ "null", "string" ],
+      "default": null
+    },
+    {
+      "name": "companyName",
+      "type": [ "null", "string" ],
+      "default": null
+    },
+    {
+      "name": "salary",
+      "type": "double",
+      "default": -1
+    }
+  ]
+}
